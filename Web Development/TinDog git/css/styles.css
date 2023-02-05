@@ -1,0 +1,148 @@
+#title{
+    padding: 2rem 8rem;
+    background-color: #ff4c68;
+}
+.stitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family:'ubuntu', sans-serif ;
+}
+
+.nav-item{
+    padding: 1.5rem;
+}
+.navbar{
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.phimage
+{
+    transform: rotate(20deg);
+    /* margin: 2rem; */
+    width: 14rem;
+    height: 22rem;
+    position: absolute;
+    z-index: 0;
+    right: 14rem;
+}
+button{
+    margin: 1rem 0;
+}
+#features{
+    background-color: white;
+    padding: 10rem 18rem;
+    /* margin: 13rem 0 ; */
+    margin-bottom: 6rem;
+    text-align: center;
+    line-height: 2;
+    position:relative;
+    z-index: 10;
+}
+.upper-icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.fhead{
+    font-family: 'Montserrat', sans-serif; ;
+}
+
+.fa-solid:hover{
+    color: red ;
+}
+
+#testimonials{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-align: center;
+    background-color: #ef8172;
+  
+}
+
+.dog-pic{
+    text-align: center;
+    width:6rem;
+    border-radius: 100%;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.testimonial-image{
+    text-align: center;
+    width:6rem;
+    border-radius: 100%;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+
+}
+
+.carousel-item{
+    padding: 7rem 18rem;
+}
+
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-bottom: 6rem;
+}
+
+.img-test{
+    width: 15%;
+}
+
+#pricing{
+    padding: 0 10rem;
+    text-align: center;
+}
+
+.card-box{
+    padding: 2rem 2rem;
+}
+
+#cta{
+    background-color:#ff4c68;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 3;
+    padding: 4rem 22rem;  
+}
+.l-button{
+    padding: 1rem 1rem;
+}
+
+#footer{
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.lower-icons{
+    padding: 1rem;
+}
+
+@media (max-width: 997px) {
+    .phimage{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+    #features{
+        text-align: center;
+    }
+    #cta{
+        text-align: center;
+    }
+}

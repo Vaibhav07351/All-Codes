@@ -1,0 +1,46 @@
+#include<conio.h>
+#include<math.h>
+#include<iostream.h>
+#include<stdio.h>
+#include<string.h>
+#include<process.h>
+void main()
+{
+   clrscr();
+   int f=0,s=1,t=1,four,n;
+   cout<<endl<<"Enter the no. of terms till where u want tribonacci series: ";
+   cin>>n;
+
+   cout<<endl<<"The tribonacci series is as follows :  ";
+
+     switch(n)
+     { case 0: cout<<"Hatt chuttar Aadmi!!";
+	       break;
+       case 1: cout<<"0 ";
+	       break;
+
+       case 2: cout<<"0 1 ";
+	       break;
+
+       default: cout<<"0 1 1 ";
+		break;
+
+     }
+
+   for(int a=1;a<=n-3;a++)
+   {
+      four=f+s+t;
+
+      f=s;
+
+      s=t;
+
+      t=four;
+
+    cout<<four<<" ";
+   }
+
+
+
+getch();
+}

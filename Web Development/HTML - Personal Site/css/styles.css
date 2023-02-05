@@ -1,0 +1,24 @@
+body{
+    background-color: #F9EBC8;
+}
+hr
+{
+    /* height: 0px; */
+    border-style: dotted none none none;
+    border-color: black;
+    border-width: 7px;
+    width:8%;
+}
+h1:hover{
+    color: red;
+   
+}
+
+.firstt{
+   border-color: red;
+}
+
+#clrchange{
+    color: blue; 
+}
+

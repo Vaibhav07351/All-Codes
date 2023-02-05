@@ -1,0 +1,47 @@
+#include<conio.h>
+#include<math.h>
+#include<iostream.h>
+#include<stdio.h>
+#include<string.h>
+#include<process.h>
+#include<ctype.h>
+void main()
+{
+  clrscr();
+  int a[3][3] , r ,c ,b=100,rem ,num=a[r][c];
+
+  for(r=0 ; r<3 ; r++)
+  {
+       for(c=0 ; c<3 ; c++)
+       {
+	   cin>>a[r][c];
+       }
+      cout<<endl;
+  }
+     cout<<endl;
+     cout<<"Diagonal elements are : ";
+
+    for(r=0 ; r<3 ; r++)
+  {
+       for(c=0,b=100 ; c<3 ; c++ ,b/=10)
+       {
+	    if(r+c==2)
+	    {  num=num*b;
+
+	    }
+
+       }
+
+  }
+
+   for(num ; num > 0 ; num/=10)
+   {
+      rem=num%10;
+      cout<<rem<<" ";
+
+   }
+
+
+
+getch();
+}

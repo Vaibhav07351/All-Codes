@@ -1,0 +1,93 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-family:"Cormorant";
+    font-size: 1.625em;
+}
+.check{
+    font-size: 1.9rem;
+    font-weight:normal;
+    color: #66BFBF;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+div{
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    margin-top: 0px;
+    /* width: 20%; */
+    
+}
+h1{
+    line-height:1.5;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-block-start: 0px;
+    width: 20%;
+    margin: 0 auto ;
+    font-family: "Yuji Boku";
+    color: #66BFBF;
+}
+.top-container{
+    background-color:#E3FCBF ;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+
+    position: absolute;
+    right: 300px;
+    top: 80px;;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 380px;
+    bottom:300px;
+}
+
+.mydp{
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+.para1{
+    clear: left;
+}
+
+.para2{
+    clear: right;
+}
+
+
+
+.middle-container{
+ 
+}
+
+.bottom-container{
+
+}

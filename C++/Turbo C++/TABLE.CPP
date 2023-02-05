@@ -1,0 +1,22 @@
+#include<conio.h>
+#include<math.h>
+#include<iostream.h>
+#include<stdio.h>
+void main()
+{ clrscr();
+  float a,b,c;
+  cout<<endl<<" Please enter a number for its table: ";
+  cin>>a;
+  cout<<endl<<"The table of "<<a<<" is as follows: ";
+  cout<<endl;
+  for(b=0;b<11;b++)
+  { c=a*b;
+   cout<<endl<<" "<<a<<"x "<<b<<"= "<<c;
+
+  }
+
+
+
+
+getch();
+}

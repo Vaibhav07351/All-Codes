@@ -1,0 +1,22 @@
+#include<conio.h>
+#include<math.h>
+#include<iostream.h>
+#include<stdio.h>
+#include<string.h>
+#include<process.h>
+void main()
+{ clrscr();
+
+ const int a=5;
+ int b[a] , n;
+
+  cout<<"Please enter the values : ";
+
+ for(int i=1 ; i<b[a] ; i++)
+ cin>>n;
+
+ for(int j=b[a] +1 ; j>0 ;j-- )
+   cout<<n;
+
+getch();
+}

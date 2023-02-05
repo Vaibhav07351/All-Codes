@@ -1,0 +1,33 @@
+#include<conio.h>
+#include<math.h>
+#include<iostream.h>
+#include<stdio.h>
+#include<string.h>
+#include<process.h>
+void main()
+{
+   clrscr();
+   int out,in,other=1,count=1;
+   char sp=' ',ch='&';
+
+   for(out=1;out<=4,other<=8;other+=2,out+=1)
+   {
+
+
+       for(in=7;in>=other;in-=1)
+       {
+	  cout<<ch<<sp;
+
+       }
+
+
+   cout<<endl;
+
+     for(count=1;count<=out;count+=1 )
+     cout<<sp<<sp;
+
+   }
+
+
+getch();
+}

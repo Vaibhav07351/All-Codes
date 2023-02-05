@@ -1,0 +1,36 @@
+#include<conio.h>
+#include<math.h>
+#include<iostream.h>
+#include<stdio.h>
+#include<string.h>
+#include<process.h>
+#include<ctype.h>
+void main()
+{
+  clrscr();
+  int c,d;
+  char a[50],b[50];
+
+  cout<<"Enter the 1st string : ";
+  gets(a);
+    c=strlen(a);
+
+  cout<<"Enter the 2nd string : ";
+  gets(b);
+    d=strlen(b);
+
+  for(int i=strlen(a),j=0; j<strlen(b) ;j++, i++)
+  {
+       a[i]=b[j];
+  }
+
+
+  cout<<endl;
+
+
+  for(i=0;i<c+d; i++)
+  cout<<a[i];
+
+
+getch();
+}

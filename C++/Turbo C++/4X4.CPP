@@ -1,0 +1,71 @@
+#include<conio.h>
+#include<math.h>
+#include<iostream.h>
+#include<stdio.h>
+#include<string.h>
+#include<process.h>
+#include<ctype.h>
+void main()
+{
+  clrscr();
+
+  int a[4][4],r,c;
+  cout<<"enter the 16 values of 4x4 array :"<<endl;
+
+  for(r=0;r<4;r++)
+  {
+     for(c=0;c<4;c++)
+     {
+       cin>>a[r][c];
+     }
+
+  }
+
+      cout<<endl<<endl;
+
+    for(r=0;r<4;r++)
+  {
+
+
+       for(int b=1;b<=r+1;b++)
+	{
+	  if((r+1)==4)
+	  break;
+	  cout<<"__" ;
+	}
+
+     for(c=r;c<4;c++)
+     {
+	if(c==r)
+	continue;
+
+	else
+	cout<<a[r][c]<<" ";
+
+     }
+    cout<<endl;
+  }
+      cout<<endl;
+
+      for(r=0;r<4;r++)
+  {
+
+     for(c=0;c<4;c++)
+     {
+	if(c==r)
+	break;
+
+	else
+	cout<<a[r][c]<<" ";
+
+     }
+    cout<<endl;
+  }
+
+
+
+
+
+
+getch();
+}
